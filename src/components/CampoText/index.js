@@ -1,10 +1,10 @@
 import "./Campotext.css"
 
-const CampoText = (datosExternos) => {
-    console.log("Datos :", datosExternos);
+const CampoText = (props) => {
+    console.log("Datos :", props);
     return <div className="campo-text">
-        <label>Nombre</label>
-        <input placeholder="Ingresar Nombre" type="text" />
+        <label>{props.titulo}</label>
+        <input placeholder={props.placeholder}/>
         
     </div>
 }
