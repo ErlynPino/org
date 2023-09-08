@@ -1,9 +1,9 @@
 import "./header.css"
 
 function Header(){
-    return <Header className="header">
+    return <header className="header">
         <img src="/img/header.png" alt='Org'/>
-    </Header>
+    </header>
 }
 
 
