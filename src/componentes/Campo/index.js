@@ -1,4 +1,3 @@
-import { useState } from "react"
 import "./Campo.css"
 
 const Campo = (props) => {
